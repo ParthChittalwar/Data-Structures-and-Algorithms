@@ -55,4 +55,4 @@ GitHub: https://github.com/ParthChittalwar
 
 ---
 
-Made with dedication by Parth Chittalwar.
+Made with dedication by Parth Santosh Chittalwar.
