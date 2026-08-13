@@ -1,8 +1,14 @@
 class Solution{
 public:
     void reverse(int arr[], int n){
-        for(int i=0; i<n/2; i++){
-            swap(arr[i],arr[n-1-i]);
-        }
+            int left = 0;
+            int right = n - 1;
+            while(left<right){
+                int temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+                left++;
+                right--;
+            }
     }
 };
